@@ -1,0 +1,12 @@
+prefix=/usr/local/lbxz80
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: lbxz80
+Description: LBX Z80 Emulation
+Requires:
+Version: 2.7.3
+Cflags: -I${includedir}
+Libs: -L${libdir} -llbxz80
+URL: https://github.com/lombao/lbxz80

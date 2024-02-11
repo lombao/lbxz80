@@ -5,7 +5,7 @@ Z80 Emulator
 Why not. Next question
 
 # HOW TO COMPILE
- 
+``` 
 ./autogen.sh
 ./configure
 make
@@ -22,6 +22,7 @@ The resulting objects are ( relative to the chosen prefix , use ./configure --pr
 ./lib/liblbxz80.la
 ./include
 ./include/lbxz80.h
+```
 
 The build requirements are:
 - Obviously, autoconf and automake and libtool
